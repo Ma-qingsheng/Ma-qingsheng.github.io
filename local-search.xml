@@ -29,5 +29,18 @@
   
   
   
+  <entry>
+    <title>FTP数据还原</title>
+    <link href="/2020/11/04/shiyaner_3/"/>
+    <url>/2020/11/04/shiyaner_3/</url>
+    
+    <content type="html"><![CDATA[<h3 id="FTP数据还原部分：利用WireShark打开实验实验数据data-pcapng。"><a href="#FTP数据还原部分：利用WireShark打开实验实验数据data-pcapng。" class="headerlink" title="FTP数据还原部分：利用WireShark打开实验实验数据data.pcapng。"></a>FTP数据还原部分：利用WireShark打开实验实验数据data.pcapng。</h3><h4 id="3-1"><a href="#3-1" class="headerlink" title="3.1"></a>3.1</h4><h4 id="FTP服务器的IP地址是多少？你是如何发现其为FTP服务器的？"><a href="#FTP服务器的IP地址是多少？你是如何发现其为FTP服务器的？" class="headerlink" title="FTP服务器的IP地址是多少？你是如何发现其为FTP服务器的？"></a>FTP服务器的IP地址是多少？你是如何发现其为FTP服务器的？</h4><p>tcp.port eq 21  查看21端口的ftp  ip=192.168.182.132</p><h4 id="3-2"><a href="#3-2" class="headerlink" title="3.2"></a>3.2</h4><h4 id="客户端登录FTP服务器的账号和密码分别是什么"><a href="#客户端登录FTP服务器的账号和密码分别是什么" class="headerlink" title="客户端登录FTP服务器的账号和密码分别是什么?"></a>客户端登录FTP服务器的账号和密码分别是什么?</h4><p><img src="/img/imgs/2.3.1.png" alt="2.3.1"></p><p>student / sN46i5y</p><h4 id="3-3"><a href="#3-3" class="headerlink" title="3.3"></a>3.3</h4><h4 id="客户端从FTP下载或查看了2个文件，一个为ZIP文件，一个为TXT文件，文件名分别是什么？-提示：文件名有可能是中文。"><a href="#客户端从FTP下载或查看了2个文件，一个为ZIP文件，一个为TXT文件，文件名分别是什么？-提示：文件名有可能是中文。" class="headerlink" title="客户端从FTP下载或查看了2个文件，一个为ZIP文件，一个为TXT文件，文件名分别是什么？**提示：文件名有可能是中文。**"></a>客户端从FTP下载或查看了2个文件，一个为ZIP文件，一个为TXT文件，文件名分别是什么？*<strong>*提示：文件名有可能是中文。**</strong></h4><p>这个是zip文件传输流 1.zip</p><p><img src="/img/imgs/2.3.2.png" alt="2.3.2"></p><p>这个是文档流 ， 复习题.txt</p><p><img src="/img/imgs/2.3.3.png" alt="2.3.3"></p><h4 id="3-4"><a href="#3-4" class="headerlink" title="3.4"></a>3.4</h4><h4 id="还原ZIP文件并打开（ZIP有解压密码，试图破解，提示：密码全为数字，并为6位）。截图破解过程。"><a href="#还原ZIP文件并打开（ZIP有解压密码，试图破解，提示：密码全为数字，并为6位）。截图破解过程。" class="headerlink" title="还原ZIP文件并打开（ZIP有解压密码，试图破解，提示：密码全为数字，并为6位）。截图破解过程。"></a>还原ZIP文件并打开（ZIP有解压密码，试图破解，提示：密码全为数字，并为6位）。截图破解过程。</h4><p><img src="/img/imgs/2.3.4.png" alt="2.3.4"></p><p><img src="/img/imgs/2.3.5.png" alt="2.3.5"></p><h4 id="3-5"><a href="#3-5" class="headerlink" title="3.5"></a>3.5</h4><h4 id="TXT文件的内容是什么？"><a href="#TXT文件的内容是什么？" class="headerlink" title="TXT文件的内容是什么？"></a>TXT文件的内容是什么？</h4><p><img src="/img/imgs/2.3.6.png" alt="2.3.6"></p><h3 id="网站密码破解部分："><a href="#网站密码破解部分：" class="headerlink" title="网站密码破解部分："></a>网站密码破解部分：</h3><p>  利用人们平时常用的词、句破译，如果说暴力破解是一个一个的尝试那么字典破译就是利用人们习惯用人名、地名或者常见的词语设置成密码的习惯进行破译。字典破译速度比暴力破译更快但是有时候密码设置中包含了没有字典库中的词句就无法破解出来了，因此有好的字典是关键。</p><p>以*****为目标网站，构造字典（wordlist），其中包含你的正确密码，利用burpsuite进行字典攻击，实施字典攻击，你是如何判断某个密码为破解得到的正确密码，截图。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
   
 </search>
